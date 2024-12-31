@@ -13,3 +13,5 @@ Things can do:
 1. Dependency injection
 2. AppTheme: Using color set can support dark and light mode.
 3. Coordinator Pattern: Using @EnvironmentObject and NavigationStack can handle app naviagtion.
+
+Dev tools: Xcode 16.2 with iOS 18
