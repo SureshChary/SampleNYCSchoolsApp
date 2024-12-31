@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "C7A5EC17-58DF-4AAD-860D-D7BB89FB8371",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SampleNYCSchoolsApp.xcodeproj",
+      "identifier" : "A0EB91FB2D1EE66100764E5C",
+      "name" : "SampleNYCSchoolsApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SampleNYCSchoolsApp.xcodeproj",
+        "identifier" : "A0EB920B2D1EE66200764E5C",
+        "name" : "SampleNYCSchoolsAppTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:SampleNYCSchoolsApp.xcodeproj",
+        "identifier" : "A0EB92152D1EE66200764E5C",
+        "name" : "SampleNYCSchoolsAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
